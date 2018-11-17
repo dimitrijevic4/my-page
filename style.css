@@ -1,0 +1,89 @@
+body{
+  background: rgb(245,245,245);
+  color: #2A9D8F;
+  font-size: 25px;
+  font-family: Helvetica;
+  text-align: center;
+}
+h1{
+  font-family: Courier;
+  color: #E76F51;
+  font-weight: lighter;
+  font-size: 50px;
+}
+h2 {
+  font-family: Courier;
+  color: pink;
+  font-weight: lighter;
+  font-size: 8px;
+}
+a {
+  color: #E9FF70;
+}
+a:hover {
+  text-decoration: none;
+  color: #E9FF70;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1506729623306-b5a934d88b53?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a3057b8d33793832b6bf459035b8d37b&auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+  padding: 80px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+#banner h1 {
+  color: yellow;
+  font-size: 50px;
+}
+
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: yellow;
+}
+
+.card{
+  padding: 100px;
+  font-weight: lighter;
+}
+
+#footer a {
+  color: 2A9D8F;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
+
+.btn {
+  color: yellow;
+  font-size: 50px;
+}
+
+#nav-bar {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.nav-bar-links a {
+  font-size: 100px;
+  text-decoration: none;
+  color: red;
+  padding: 15px;
+}
+
+.nav-bar-links a: hover {
+  color: black;
+}
+.logo i {
+  font-size: 80px;
+  color: F8F32B;
+  align-items: left;
+
+}
